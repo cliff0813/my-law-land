@@ -20,7 +20,7 @@
   });
 
   /* ── Close menu on nav link click ── */
-  document.querySelectorAll('.nav-link').forEach(function (link) {
+  document.querySelectorAll('#nav-menu a[href^="#"]').forEach(function (link) {
     link.addEventListener('click', function () {
       hamburger.classList.remove('open');
       navMenu.classList.remove('open');
