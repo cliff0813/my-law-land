@@ -370,3 +370,58 @@ section {
   font-size: 0.9rem;
   line-height: 1.7;
 }
+
+/* ===== Services ===== */
+#services {
+  background: var(--color-white);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.service-card {
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  padding: 32px 24px;
+  text-align: center;
+  border: 1px solid rgba(27,58,107,0.08);
+  transition: all var(--transition);
+}
+
+.service-card:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.service-card:hover h3 {
+  color: var(--color-gold);
+}
+
+.service-card:hover p {
+  color: rgba(255,255,255,0.85);
+}
+
+.service-icon {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+  transition: color var(--transition);
+}
+
+.service-card p {
+  font-size: 0.88rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+  transition: color var(--transition);
+}
