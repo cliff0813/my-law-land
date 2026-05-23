@@ -13,6 +13,7 @@
 - **無框架依賴**
 - **響應式：** RWD，斷點 `768px`（手機/桌機）
 - **字型：** Google Fonts — Noto Sans TC（繁體中文）
+- **多語言：** 繁體中文 / English / Tiếng Việt，JS 動態切換
 
 **檔案結構：**
 ```
@@ -21,7 +22,8 @@ my-law-land/
 ├── css/
 │   └── style.css
 └── js/
-    └── main.js
+    ├── main.js
+    └── i18n.js          ← 語言切換邏輯與翻譯資料
 ```
 
 ---
@@ -42,7 +44,7 @@ my-law-land/
 
 ### 1. 導覽列 (Navbar)
 - 左側：事務所 Logo 文字「智行法律地政士事務所」
-- 右側：錨點連結（關於我們、服務項目、收費標準、聯絡我們）
+- 右側：錨點連結（關於我們、服務項目、收費標準、聯絡我們）+ 語言切換按鈕（繁中 / EN / VI）
 - 手機版：漢堡選單（☰），JS 控制展開/收合
 - 固定置頂（`position: sticky`），滾動後加陰影
 
@@ -135,6 +137,60 @@ my-law-land/
 - 導覽列滾動後加陰影效果
 - 錨點平滑滾動（`scroll-behavior: smooth`）
 - 可選：滾動進場動畫（Intersection Observer）
+- 語言切換（i18n）
+
+---
+
+## 六-A、多語言（i18n）設計
+
+**實作方式：** 單一 HTML 搭配 `data-i18n` 屬性，`i18n.js` 負責儲存翻譯資料並動態替換文字。
+
+**HTML 標記範例：**
+```html
+<h1 data-i18n="hero.title">智行法律地政士事務所</h1>
+<p data-i18n="hero.subtitle">專業法律 × 不動產服務</p>
+```
+
+**i18n.js 翻譯資料結構：**
+```js
+const translations = {
+  "zh-TW": {
+    "hero.title": "智行法律地政士事務所",
+    "hero.subtitle": "專業法律 × 不動產服務",
+    "nav.about": "關於我們",
+    // ...
+  },
+  "en": {
+    "hero.title": "ActWise Law & Land Office",
+    "hero.subtitle": "Professional Legal × Real Estate Services",
+    "nav.about": "About Us",
+    // ...
+  },
+  "vi": {
+    "hero.title": "Văn Phòng Luật ActWise",
+    "hero.subtitle": "Dịch Vụ Pháp Lý × Bất Động Sản Chuyên Nghiệp",
+    "nav.about": "Về Chúng Tôi",
+    // ...
+  }
+};
+```
+
+**切換邏輯：**
+- 預設語言：繁體中文（`zh-TW`）
+- 語言偏好存入 `localStorage`，重新整理後維持設定
+- 切換時更新頁面所有 `data-i18n` 元素的 `textContent`
+- 同時更新 `<html lang="">` 屬性
+
+**語言切換按鈕樣式（導覽列右側）：**
+```html
+<div class="lang-switcher">
+  <button onclick="setLang('zh-TW')">繁中</button>
+  <button onclick="setLang('en')">EN</button>
+  <button onclick="setLang('vi')">VI</button>
+</div>
+```
+- 目前選中語言按鈕加粗/底線標示
+- 手機版：收合於漢堡選單內
 
 ---
 
