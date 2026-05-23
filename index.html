@@ -11,7 +11,36 @@
 </head>
 <body>
   <!-- Navbar -->
-  <header id="navbar"></header>
+  <header id="navbar">
+  <div class="container nav-container">
+    <!-- Logo -->
+    <a href="#hero" class="nav-logo">
+      <img src="img/Gemini_Generated_Image_afdpbtafdpbtafdp.png" alt="智行法律地政士事務所 Logo" />
+      <span data-i18n="hero.title">智行法律地政士事務所</span>
+    </a>
+
+    <!-- Hamburger (mobile) -->
+    <button class="hamburger" id="hamburger" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Nav Links + Lang Switcher -->
+    <nav class="nav-menu" id="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">關於我們</a></li>
+        <li><a href="#services" data-i18n="nav.services">服務項目</a></li>
+        <li><a href="#fees" data-i18n="nav.fees">收費標準</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">聯絡我們</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="zh-TW" onclick="setLang('zh-TW')">繁中</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="vi" onclick="setLang('vi')">VI</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
 
   <!-- Hero -->
   <section id="hero"></section>
