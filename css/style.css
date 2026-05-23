@@ -516,6 +516,17 @@ section {
   display: block;
 }
 
+.contact-map {
+  margin-top: 40px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-map iframe {
+  display: block;
+}
+
 /* LINE Button */
 .btn-line {
   display: flex;
