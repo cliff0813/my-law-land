@@ -425,3 +425,70 @@ section {
   line-height: 1.7;
   transition: color var(--transition);
 }
+
+/* ===== Fees ===== */
+#fees {
+  background: var(--color-primary);
+}
+
+#fees .section-title {
+  color: var(--color-white);
+}
+
+#fees .section-subtitle {
+  color: rgba(255,255,255,0.75);
+}
+
+#fees .section-divider {
+  background: var(--color-gold);
+}
+
+.fees-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+.fees-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-white);
+  font-size: 0.95rem;
+}
+
+.fees-table thead {
+  background: var(--color-gold);
+}
+
+.fees-table th {
+  padding: 16px 20px;
+  text-align: left;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  letter-spacing: 0.03em;
+}
+
+.fees-table td {
+  padding: 14px 20px;
+  color: var(--color-text);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.fees-table tr:last-child td {
+  border-bottom: none;
+}
+
+.fees-table tr:nth-child(even) td {
+  background: var(--color-bg);
+}
+
+.fees-table tr:hover td {
+  background: rgba(201,168,76,0.08);
+}
+
+.fees-disclaimer {
+  margin-top: 1.5rem;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+  text-align: center;
+}
