@@ -700,6 +700,103 @@ section {
   text-align: center;
 }
 
+/* ── Cases Section ── */
+#cases {
+  background: var(--color-bg);
+}
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.case-card {
+  background: var(--color-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.case-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.case-img-wrap {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.case-tag {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-dark);
+  background: var(--color-gold);
+}
+
+.case-tag--criminal { background: #f0c4c4; color: #7a1a1a; }
+.case-tag--family   { background: #c4e0f0; color: #1a4a7a; }
+.case-tag--land     { background: #c4f0d4; color: #1a5a2a; }
+.case-tag--inherit  { background: #e8d4f8; color: #4a1a7a; }
+.case-tag--labor    { background: #fce8c4; color: #7a4a0a; }
+
+.case-body {
+  padding: 20px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.case-date {
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+  margin-bottom: 8px;
+}
+
+.case-body h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.case-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+  flex: 1;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.case-more {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.case-more:hover {
+  color: var(--color-primary);
+}
+
 /* ── Fade-in animation ── */
 .fade-in {
   opacity: 0;
@@ -792,6 +889,11 @@ section {
 
   /* Knowledge */
   .knowledge-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Cases */
+  .cases-grid {
     grid-template-columns: 1fr;
   }
 
