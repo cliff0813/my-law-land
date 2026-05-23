@@ -575,3 +575,116 @@ section {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* ===== Knowledge ===== */
+#knowledge {
+  background: var(--color-white);
+}
+
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.knowledge-card {
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid rgba(27,58,107,0.08);
+  transition: all var(--transition);
+}
+
+.knowledge-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.knowledge-icon {
+  font-size: 2rem;
+}
+
+.knowledge-body h3 {
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.knowledge-body p {
+  font-size: 0.88rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.btn-read {
+  display: inline-block;
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-gold);
+  padding-bottom: 1px;
+  cursor: pointer;
+  transition: color var(--transition);
+}
+
+.btn-read:hover {
+  color: var(--color-gold);
+}
+
+/* ===== Footer ===== */
+#footer {
+  background: var(--color-primary-dark);
+  color: rgba(255,255,255,0.8);
+  padding: 40px 0;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-gold);
+}
+
+.footer-info {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.88rem;
+}
+
+.footer-info p {
+  color: rgba(255,255,255,0.7);
+}
+
+.footer-rights {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.45);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 16px;
+  width: 100%;
+  text-align: center;
+}
