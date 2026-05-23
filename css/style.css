@@ -699,3 +699,108 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ── Responsive Design (≤768px) ── */
+@media (max-width: 768px) {
+  /* Navbar */
+  #hamburger {
+    display: flex;
+  }
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-primary);
+    flex-direction: column;
+    padding: 16px 24px 24px;
+    gap: 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  }
+  .nav-menu.open {
+    display: flex;
+  }
+  .nav-menu .nav-link {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+  }
+  .nav-actions {
+    gap: 8px;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 80vh;
+    padding: 100px 20px 60px;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  /* About */
+  .about-grid {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .about-logo {
+    text-align: center;
+  }
+  .about-logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Team */
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Services */
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Fees */
+  .fees-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Contact */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-wrap iframe {
+    height: 480px;
+  }
+
+  /* Knowledge */
+  .knowledge-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer */
+  .footer-inner {
+    gap: 24px;
+  }
+  .footer-info {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Section padding */
+  section {
+    padding: 60px 0;
+  }
+  .section-inner,
+  .container {
+    padding: 0 20px;
+  }
+}
