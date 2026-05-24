@@ -546,6 +546,19 @@ section {
   border: 3px solid var(--color-gold);
 }
 
+.team-avatar--photo {
+  width: clamp(92px, 10vw, 132px);
+  height: clamp(92px, 10vw, 132px);
+  padding: 0;
+  overflow: hidden;
+}
+
+.team-avatar--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .team-card h3 {
   font-size: 1.1rem;
   color: var(--color-primary);
@@ -566,10 +579,31 @@ section {
   line-height: 1.7;
 }
 
+.team-intro-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition);
+}
+
+.team-intro-link:hover {
+  color: var(--color-gold);
+}
+
+.team-socials {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .team-social-link {
   width: 38px;
   height: 38px;
-  margin: 14px auto 0;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -590,6 +624,22 @@ section {
   width: 18px;
   height: 18px;
   fill: currentColor;
+}
+
+.team-social-link--line {
+  background: #06C755;
+  box-shadow: 0 4px 12px rgba(6,199,85,0.3);
+}
+
+.team-social-link--line:hover {
+  background: #05b34f;
+  box-shadow: 0 8px 18px rgba(6,199,85,0.4);
+}
+
+.team-social-line-label {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
 }
 
 /* ===== Services ===== */
