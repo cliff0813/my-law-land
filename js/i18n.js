@@ -144,7 +144,43 @@ const translations = {
     "knowledge.article2.desc": "從申報遺產稅、辦理繼承登記到遺產分割，一步步說明完整流程。",
     "knowledge.article3.title": "勞資爭議處理指南",
     "knowledge.article3.desc": "遭遇不當解雇或資遣時，您的權利與申訴管道完整介紹。",
-    "footer.rights": "© 2025 智行法律地政士事務所 版權所有"
+    "footer.rights": "© 2025 智行法律地政士事務所 版權所有",
+    "chan.meta.title": "詹連財 律師 — 智行法律地政士事務所",
+    "chan.back": "← 返回團隊介紹",
+    "chan.badge": "主持律師 ／ 地政士",
+    "chan.name": "詹連財 律師",
+    "chan.intro.1": "專注於財產傳承、不動產法務與跨領域法律整合，",
+    "chan.intro.2": "提供法律與地政一站式雙專業服務。",
+    "chan.lic.title": "📋 專業證照",
+    "chan.lic.1": "律師證書",
+    "chan.lic.2": "地政士證書",
+    "chan.lic.3": "司法事務官資格",
+    "chan.lic.4": "不動產經紀人",
+    "chan.lic.5": "人身保險經紀人",
+    "chan.lic.6": "家族信託規劃顧問師（台灣金融研訓院）",
+    "chan.edu.title": "🎓 學歷",
+    "chan.edu.1": "台北大學（前中興大學）法律系",
+    "chan.edu.2": "台北科技大學 智慧財產研究所 法律碩士",
+    "chan.edu.3": "中信金管理學院 不動產金融碩士學分班",
+    "chan.edu.4": "日本大阪工業大學 智慧財產權暑期專班結業",
+    "chan.exp.title": "💼 工作經歷",
+    "chan.exp.1.year": "2018 — 迄今",
+    "chan.exp.1.d1": "智行法律地政士事務所 主持律師／智行地政士事務所 所長",
+    "chan.exp.1.d2": "受法院指定擔任遺產管理人、公司清算人、特別代理人等職務",
+    "chan.exp.2.year": "2025 — 2027",
+    "chan.exp.2.d1": "桃園市信託協會 理事長",
+    "chan.exp.3.year": "2008 — 2018",
+    "chan.exp.3.d1": "台灣新北地方法院 司法事務官（組長）",
+    "chan.exp.3.d2": "兼任家事調解委員、民事法庭調解委員",
+    "chan.exp.4.year": "2003 — 2008",
+    "chan.exp.4.d1": "太平洋電線電纜股份有限公司 法務專員",
+    "chan.exp.4.d2": "太平洋證券股份有限公司 法人董事",
+    "chan.community.title": "🎤 社會參與 ／ 講師經歷",
+    "chan.community.1": "受邀於各地政士公會、地政聯誼會、保險公司、不動產仲介公司擔任法律講師",
+    "chan.community.2": "台北市地政士公會調解委員",
+    "chan.community.3": "台北市不動產管理協會 理事",
+    "chan.community.4": "提供法律扶助，擔任法院指定義務辯護人",
+    "chan.cta": "預約諮詢"
   },
 
   "en": {
@@ -289,7 +325,43 @@ const translations = {
     "knowledge.article2.desc": "Step-by-step: estate tax filing, inheritance registration, and estate division.",
     "knowledge.article3.title": "Labor Dispute Handling Guide",
     "knowledge.article3.desc": "Your rights and appeal channels when facing wrongful termination or forced resignation.",
-    "footer.rights": "© 2025 ActWise Law & Land Office. All Rights Reserved."
+    "footer.rights": "© 2025 ActWise Law & Land Office. All Rights Reserved.",
+    "chan.meta.title": "Attorney Chan Lien-tsai — ActWise Law & Land Office",
+    "chan.back": "← Back to Team",
+    "chan.badge": "Managing Attorney / Land Registrar",
+    "chan.name": "Attorney Chan Lien-tsai",
+    "chan.intro.1": "Focused on asset succession, real estate law, and cross-disciplinary legal integration —",
+    "chan.intro.2": "delivering one-stop dual-expertise in law and land registration.",
+    "chan.lic.title": "📋 Professional Licenses",
+    "chan.lic.1": "Attorney-at-Law",
+    "chan.lic.2": "Licensed Land Registrar",
+    "chan.lic.3": "Judicial Affairs Officer Qualification",
+    "chan.lic.4": "Real Estate Broker",
+    "chan.lic.5": "Life Insurance Broker",
+    "chan.lic.6": "Family Trust Planning Advisor (TABF)",
+    "chan.edu.title": "🎓 Education",
+    "chan.edu.1": "National Taipei University, Department of Law",
+    "chan.edu.2": "National Taipei University of Technology, LL.M. in Intellectual Property",
+    "chan.edu.3": "CTBC Business School, Real Estate Finance Graduate Program",
+    "chan.edu.4": "Osaka Institute of Technology (Japan), IP Summer Program",
+    "chan.exp.title": "💼 Work Experience",
+    "chan.exp.1.year": "2018 — Present",
+    "chan.exp.1.d1": "ActWise Law & Land Office — Managing Attorney / Director",
+    "chan.exp.1.d2": "Court-appointed Estate Administrator, Company Liquidator & Special Representative",
+    "chan.exp.2.year": "2025 — 2027",
+    "chan.exp.2.d1": "Taoyuan Trust Association — President",
+    "chan.exp.3.year": "2008 — 2018",
+    "chan.exp.3.d1": "New Taipei District Court — Judicial Affairs Officer (Section Chief)",
+    "chan.exp.3.d2": "Concurrent roles: Family Affairs Mediator, Civil Court Mediator",
+    "chan.exp.4.year": "2003 — 2008",
+    "chan.exp.4.d1": "Pacific Electric Wire & Cable Co. — Legal Specialist",
+    "chan.exp.4.d2": "Pacific Securities Co. — Corporate Director",
+    "chan.community.title": "🎤 Community & Speaking",
+    "chan.community.1": "Invited legal lecturer at land registrar associations, insurance companies & real estate agencies",
+    "chan.community.2": "Mediator, Taipei Land Registrars Association",
+    "chan.community.3": "Director, Taipei Real Estate Management Association",
+    "chan.community.4": "Legal Aid provider and court-appointed public defender",
+    "chan.cta": "Book a Consultation"
   },
 
   "vi": {
@@ -434,7 +506,43 @@ const translations = {
     "knowledge.article2.desc": "Từng bước: khai thuế thừa kế, đăng ký thừa kế và phân chia di sản.",
     "knowledge.article3.title": "Hướng Dẫn Xử Lý Tranh Chấp Lao Động",
     "knowledge.article3.desc": "Quyền lợi và kênh khiếu nại khi bị sa thải trái luật hoặc bị ép nghỉ việc.",
-    "footer.rights": "© 2025 Văn Phòng Luật & Địa Chính ActWise. Bản quyền thuộc về công ty."
+    "footer.rights": "© 2025 Văn Phòng Luật & Địa Chính ActWise. Bản quyền thuộc về công ty.",
+    "chan.meta.title": "Luật sư Chan Lien-tsai — Văn Phòng Luật & Địa Chính ActWise",
+    "chan.back": "← Quay lại Đội Ngũ",
+    "chan.badge": "Luật sư Điều hành / Chuyên viên Địa chính",
+    "chan.name": "Luật sư Chan Lien-tsai",
+    "chan.intro.1": "Chuyên về thừa kế tài sản, pháp lý bất động sản và tích hợp pháp lý đa ngành —",
+    "chan.intro.2": "cung cấp dịch vụ một cửa kết hợp luật sư và chuyên viên địa chính.",
+    "chan.lic.title": "📋 Chứng Chỉ Chuyên Môn",
+    "chan.lic.1": "Luật sư được cấp phép",
+    "chan.lic.2": "Chuyên viên địa chính được cấp phép",
+    "chan.lic.3": "Tư cách Cán bộ Tư pháp",
+    "chan.lic.4": "Môi giới Bất động sản",
+    "chan.lic.5": "Môi giới Bảo hiểm Nhân thọ",
+    "chan.lic.6": "Cố vấn Lập kế hoạch Tín thác Gia đình (TABF)",
+    "chan.edu.title": "🎓 Học Vấn",
+    "chan.edu.1": "Đại học Quốc gia Đài Bắc, Khoa Luật",
+    "chan.edu.2": "Đại học Kỹ thuật Quốc gia Đài Bắc, Thạc sĩ Luật Sở hữu trí tuệ",
+    "chan.edu.3": "CTBC Business School, Chương trình Tài chính Bất động sản",
+    "chan.edu.4": "Đại học Công nghệ Osaka (Nhật Bản), Chương trình Hè về Sở hữu trí tuệ",
+    "chan.exp.title": "💼 Kinh Nghiệm Làm Việc",
+    "chan.exp.1.year": "2018 — Nay",
+    "chan.exp.1.d1": "ActWise Law & Land Office — Luật sư Điều hành / Giám đốc",
+    "chan.exp.1.d2": "Được tòa án chỉ định làm Quản lý Di sản, Thanh lý viên, Đại diện Đặc biệt",
+    "chan.exp.2.year": "2025 — 2027",
+    "chan.exp.2.d1": "Hiệp hội Tín thác Đào Viên — Chủ tịch",
+    "chan.exp.3.year": "2008 — 2018",
+    "chan.exp.3.d1": "Tòa án Quận Tân Bắc — Cán bộ Tư pháp (Trưởng phòng)",
+    "chan.exp.3.d2": "Kiêm nhiệm: Hòa giải viên Gia đình, Hòa giải viên Dân sự",
+    "chan.exp.4.year": "2003 — 2008",
+    "chan.exp.4.d1": "Pacific Electric Wire & Cable Co. — Chuyên viên Pháp lý",
+    "chan.exp.4.d2": "Pacific Securities Co. — Giám đốc Doanh nghiệp",
+    "chan.community.title": "🎤 Hoạt Động Cộng Đồng & Diễn Thuyết",
+    "chan.community.1": "Diễn giả pháp lý tại các hiệp hội địa chính, công ty bảo hiểm và đại lý bất động sản",
+    "chan.community.2": "Hòa giải viên, Hiệp hội Địa chính Đài Bắc",
+    "chan.community.3": "Ủy viên, Hiệp hội Quản lý Bất động sản Đài Bắc",
+    "chan.community.4": "Cung cấp Trợ giúp pháp lý và Luật sư Công do tòa án chỉ định",
+    "chan.cta": "Đặt Lịch Tư Vấn"
   }
 };
 
@@ -453,9 +561,14 @@ function setLang(lang) {
     }
   });
 
-  // Update <html lang> and <title>
+  // Update <html lang> and <title> (page-specific key takes priority)
   document.documentElement.lang = lang;
-  if (dict['meta.title']) document.title = dict['meta.title'];
+  const pageTitleKey = document.body && document.body.dataset.pageTitle;
+  if (pageTitleKey && dict[pageTitleKey]) {
+    document.title = dict[pageTitleKey];
+  } else if (dict['meta.title']) {
+    document.title = dict['meta.title'];
+  }
 
   // Highlight active language button
   document.querySelectorAll('.lang-btn').forEach(btn => {

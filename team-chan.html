@@ -140,7 +140,7 @@
     }
   </style>
 </head>
-<body>
+<body data-page-title="chan.meta.title">
   <!-- Navbar -->
   <header id="navbar">
     <div class="nav-container">
@@ -148,12 +148,17 @@
         <img src="img/Gemini_Generated_Image_afdpbtafdpbtafdp.png" alt="智行法律地政士事務所 Logo" />
         <span>智行法律地政士事務所</span>
       </a>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="zh-TW" onclick="setLang('zh-TW')">繁中</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="vi" onclick="setLang('vi')">VI</button>
+      </div>
     </div>
   </header>
 
   <main class="profile-page">
 
-    <a href="index.html#team" class="profile-back">← 返回團隊介紹</a>
+    <a href="index.html#team" class="profile-back" data-i18n="chan.back">← 返回團隊介紹</a>
 
     <!-- 頂部介紹 -->
     <div class="profile-hero">
@@ -161,70 +166,81 @@
         <img src="img/財.png" alt="詹連財 律師" style="width:100%;height:100%;object-fit:cover;object-position:top;" />
       </div>
       <div>
-        <div class="profile-title-badge">主持律師 ／ 地政士</div>
-        <h1>詹連財 律師</h1>
-        <p>專注於財產傳承、不動產法務與跨領域法律整合，<br/>提供法律與地政一站式雙專業服務。</p>
+        <div class="profile-title-badge" data-i18n="chan.badge">主持律師 ／ 地政士</div>
+        <h1 data-i18n="chan.name">詹連財 律師</h1>
+        <p><span data-i18n="chan.intro.1">專注於財產傳承、不動產法務與跨領域法律整合，</span><br/><span data-i18n="chan.intro.2">提供法律與地政一站式雙專業服務。</span></p>
       </div>
     </div>
 
     <!-- 專業證照 -->
     <div class="profile-section">
-      <h2>📋 專業證照</h2>
+      <h2 data-i18n="chan.lic.title">📋 專業證照</h2>
       <ul class="profile-list">
-        <li>律師證書</li>
-        <li>地政士證書</li>
-        <li>司法事務官資格</li>
-        <li>不動產經紀人</li>
-        <li>人身保險經紀人</li>
-        <li>家族信託規劃顧問師（台灣金融研訓院）</li>
+        <li data-i18n="chan.lic.1">律師證書</li>
+        <li data-i18n="chan.lic.2">地政士證書</li>
+        <li data-i18n="chan.lic.3">司法事務官資格</li>
+        <li data-i18n="chan.lic.4">不動產經紀人</li>
+        <li data-i18n="chan.lic.5">人身保險經紀人</li>
+        <li data-i18n="chan.lic.6">家族信託規劃顧問師（台灣金融研訓院）</li>
       </ul>
     </div>
 
     <!-- 學歷 -->
     <div class="profile-section">
-      <h2>🎓 學歷</h2>
+      <h2 data-i18n="chan.edu.title">🎓 學歷</h2>
       <ul class="profile-list">
-        <li>台北大學（前中興大學）法律系</li>
-        <li>台北科技大學 智慧財產研究所 法律碩士</li>
-        <li>中信金管理學院 不動產金融碩士學分班</li>
-        <li>日本大阪工業大學 智慧財產權暑期專班結業</li>
+        <li data-i18n="chan.edu.1">台北大學（前中興大學）法律系</li>
+        <li data-i18n="chan.edu.2">台北科技大學 智慧財產研究所 法律碩士</li>
+        <li data-i18n="chan.edu.3">中信金管理學院 不動產金融碩士學分班</li>
+        <li data-i18n="chan.edu.4">日本大阪工業大學 智慧財產權暑期專班結業</li>
       </ul>
     </div>
 
     <!-- 工作經歷 -->
     <div class="profile-section">
-      <h2>💼 工作經歷</h2>
+      <h2 data-i18n="chan.exp.title">💼 工作經歷</h2>
       <div class="profile-exp-item">
-        <div class="profile-exp-year">2018 — 迄今</div>
-        <div class="profile-exp-desc">智行法律地政士事務所 主持律師／智行地政士事務所 所長<br/>受法院指定擔任遺產管理人、公司清算人、特別代理人等職務</div>
+        <div class="profile-exp-year" data-i18n="chan.exp.1.year">2018 — 迄今</div>
+        <div class="profile-exp-desc">
+          <span data-i18n="chan.exp.1.d1">智行法律地政士事務所 主持律師／智行地政士事務所 所長</span><br/>
+          <span data-i18n="chan.exp.1.d2">受法院指定擔任遺產管理人、公司清算人、特別代理人等職務</span>
+        </div>
       </div>
       <div class="profile-exp-item">
-        <div class="profile-exp-year">2025 — 2027</div>
-        <div class="profile-exp-desc">桃園市信託協會 理事長</div>
+        <div class="profile-exp-year" data-i18n="chan.exp.2.year">2025 — 2027</div>
+        <div class="profile-exp-desc">
+          <span data-i18n="chan.exp.2.d1">桃園市信託協會 理事長</span>
+        </div>
       </div>
       <div class="profile-exp-item">
-        <div class="profile-exp-year">2008 — 2018</div>
-        <div class="profile-exp-desc">台灣新北地方法院 司法事務官（組長）<br/>兼任家事調解委員、民事法庭調解委員</div>
+        <div class="profile-exp-year" data-i18n="chan.exp.3.year">2008 — 2018</div>
+        <div class="profile-exp-desc">
+          <span data-i18n="chan.exp.3.d1">台灣新北地方法院 司法事務官（組長）</span><br/>
+          <span data-i18n="chan.exp.3.d2">兼任家事調解委員、民事法庭調解委員</span>
+        </div>
       </div>
       <div class="profile-exp-item">
-        <div class="profile-exp-year">2003 — 2008</div>
-        <div class="profile-exp-desc">太平洋電線電纜股份有限公司 法務專員<br/>太平洋證券股份有限公司 法人董事</div>
+        <div class="profile-exp-year" data-i18n="chan.exp.4.year">2003 — 2008</div>
+        <div class="profile-exp-desc">
+          <span data-i18n="chan.exp.4.d1">太平洋電線電纜股份有限公司 法務專員</span><br/>
+          <span data-i18n="chan.exp.4.d2">太平洋證券股份有限公司 法人董事</span>
+        </div>
       </div>
     </div>
 
     <!-- 專業講師 -->
     <div class="profile-section">
-      <h2>🎤 社會參與 ／ 講師經歷</h2>
+      <h2 data-i18n="chan.community.title">🎤 社會參與 ／ 講師經歷</h2>
       <ul class="profile-list single">
-        <li>受邀於各地政士公會、地政聯誼會、保險公司、不動產仲介公司擔任法律講師</li>
-        <li>台北市地政士公會調解委員</li>
-        <li>台北市不動產管理協會 理事</li>
-        <li>提供法律扶助，擔任法院指定義務辯護人</li>
+        <li data-i18n="chan.community.1">受邀於各地政士公會、地政聯誼會、保險公司、不動產仲介公司擔任法律講師</li>
+        <li data-i18n="chan.community.2">台北市地政士公會調解委員</li>
+        <li data-i18n="chan.community.3">台北市不動產管理協會 理事</li>
+        <li data-i18n="chan.community.4">提供法律扶助，擔任法院指定義務辯護人</li>
       </ul>
     </div>
 
     <div class="profile-cta">
-      <a href="index.html#contact" class="btn-hero" style="text-decoration:none;">預約諮詢</a>
+      <a href="index.html#contact" class="btn-hero" style="text-decoration:none;" data-i18n="chan.cta">預約諮詢</a>
     </div>
 
   </main>
@@ -233,6 +249,7 @@
     © 2025 智行法律地政士事務所 All Rights Reserved.
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
