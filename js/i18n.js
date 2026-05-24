@@ -2,7 +2,7 @@
 
 const translations = {
   "zh-TW": {
-    "meta.title": "智行法律地政士事務所",
+    "meta.title": "智行法律地政士事務所 — 智慧規劃、伴您同行",
     "nav.about": "關於我們",
     "nav.services": "服務項目",
     "nav.fees": "收費標準",
@@ -123,7 +123,7 @@ const translations = {
   },
 
   "en": {
-    "meta.title": "ActWise Law & Land Office",
+    "meta.title": "ActWise Law & Land Office — Smart Planning, Walking With You",
     "nav.about": "About Us",
     "nav.services": "Services",
     "nav.fees": "Fee Schedule",
@@ -243,7 +243,7 @@ const translations = {
   },
 
   "vi": {
-    "meta.title": "Văn Phòng Luật & Địa Chính ActWise",
+    "meta.title": "Văn Phòng Luật & Địa Chính ActWise — Kế Hoạch Thông Minh, Đồng Hành Cùng Bạn",
     "nav.about": "Về Chúng Tôi",
     "nav.services": "Dịch Vụ",
     "nav.fees": "Bảng Phí",
