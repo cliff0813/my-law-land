@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>詹連財律師 — 智行法律地政士事務所</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .profile-page {
+      max-width: 860px;
+      margin: 100px auto 60px;
+      padding: 0 24px;
+    }
+    .profile-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--color-primary);
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-bottom: 2rem;
+      transition: color 0.2s;
+    }
+    .profile-back:hover { color: var(--color-gold); }
+    .profile-hero {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      background: var(--color-primary);
+      color: #fff;
+      border-radius: 14px;
+      padding: 2.5rem 3rem;
+      margin-bottom: 2.5rem;
+    }
+    .profile-avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: rgba(201,168,76,0.2);
+      border: 3px solid var(--color-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      flex-shrink: 0;
+    }
+    .profile-hero h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .profile-title-badge {
+      display: inline-block;
+      background: var(--color-gold);
+      color: var(--color-primary-dark);
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 3px 14px;
+      border-radius: 20px;
+      margin-bottom: 0.75rem;
+    }
+    .profile-hero p {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+    .profile-section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 16px rgba(27,58,107,0.07);
+    }
+    .profile-section h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--color-gold);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .profile-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.6rem 1.5rem;
+    }
+    .profile-list.single { grid-template-columns: 1fr; }
+    .profile-list li {
+      color: var(--color-text-light);
+      font-size: 0.92rem;
+      line-height: 1.7;
+      padding-left: 1.1rem;
+      position: relative;
+    }
+    .profile-list li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: var(--color-gold);
+    }
+    .profile-exp-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(27,58,107,0.08);
+    }
+    .profile-exp-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .profile-exp-year {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--color-gold);
+      min-width: 90px;
+      padding-top: 2px;
+    }
+    .profile-exp-desc {
+      font-size: 0.92rem;
+      color: var(--color-text-light);
+      line-height: 1.7;
+    }
+    .profile-cta {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+    @media (max-width: 768px) {
+      .profile-hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1.5rem;
+        gap: 1.5rem;
+      }
+      .profile-section { padding: 1.5rem; }
+      .profile-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/Gemini_Generated_Image_afdpbtafdpbtafdp.png" alt="智行法律地政士事務所 Logo" />
+        <span>智行法律地政士事務所</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="profile-page">
+
+    <a href="index.html#team" class="profile-back">← 返回團隊介紹</a>
+
+    <!-- 頂部介紹 -->
+    <div class="profile-hero">
+      <div class="profile-avatar">⚖️</div>
+      <div>
+        <div class="profile-title-badge">主持律師 ／ 地政士</div>
+        <h1>詹連財 律師</h1>
+        <p>專注於財產傳承、不動產法務與跨領域法律整合，<br/>提供法律與地政一站式雙專業服務。</p>
+      </div>
+    </div>
+
+    <!-- 專業證照 -->
+    <div class="profile-section">
+      <h2>📋 專業證照</h2>
+      <ul class="profile-list">
+        <li>律師證書</li>
+        <li>地政士證書</li>
+        <li>司法事務官資格</li>
+        <li>不動產經紀人</li>
+        <li>人身保險經紀人</li>
+        <li>家族信託規劃顧問師（台灣金融研訓院）</li>
+      </ul>
+    </div>
+
+    <!-- 學歷 -->
+    <div class="profile-section">
+      <h2>🎓 學歷</h2>
+      <ul class="profile-list">
+        <li>台北大學（前中興大學）法律系</li>
+        <li>台北科技大學 智慧財產研究所 法律碩士</li>
+        <li>中信金管理學院 不動產金融碩士學分班</li>
+        <li>日本大阪工業大學 智慧財產權暑期專班結業</li>
+      </ul>
+    </div>
+
+    <!-- 工作經歷 -->
+    <div class="profile-section">
+      <h2>💼 工作經歷</h2>
+      <div class="profile-exp-item">
+        <div class="profile-exp-year">2018 — 迄今</div>
+        <div class="profile-exp-desc">智行法律地政士事務所 主持律師／智行地政士事務所 所長<br/>受法院指定擔任遺產管理人、公司清算人、特別代理人等職務</div>
+      </div>
+      <div class="profile-exp-item">
+        <div class="profile-exp-year">2025 — 2027</div>
+        <div class="profile-exp-desc">桃園市信託協會 理事長</div>
+      </div>
+      <div class="profile-exp-item">
+        <div class="profile-exp-year">2008 — 2018</div>
+        <div class="profile-exp-desc">台灣新北地方法院 司法事務官（組長）<br/>兼任家事調解委員、民事法庭調解委員</div>
+      </div>
+      <div class="profile-exp-item">
+        <div class="profile-exp-year">2003 — 2008</div>
+        <div class="profile-exp-desc">太平洋電線電纜股份有限公司 法務專員<br/>太平洋證券股份有限公司 法人董事</div>
+      </div>
+    </div>
+
+    <!-- 專業講師 -->
+    <div class="profile-section">
+      <h2>🎤 社會參與 ／ 講師經歷</h2>
+      <ul class="profile-list single">
+        <li>受邀於各地政士公會、地政聯誼會、保險公司、不動產仲介公司擔任法律講師</li>
+        <li>台北市地政士公會調解委員</li>
+        <li>台北市不動產管理協會 理事</li>
+        <li>提供法律扶助，擔任法院指定義務辯護人</li>
+      </ul>
+    </div>
+
+    <div class="profile-cta">
+      <a href="index.html#contact" class="btn-hero" style="text-decoration:none;">預約諮詢</a>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--color-primary-dark);color:rgba(255,255,255,0.6);text-align:center;padding:20px;font-size:0.85rem;margin-top:60px;">
+    © 2025 智行法律地政士事務所 All Rights Reserved.
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
